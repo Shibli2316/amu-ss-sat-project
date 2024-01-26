@@ -1,0 +1,34 @@
+html, body { padding: 0; margin: 0; }
+.image-grid div {
+  width: 25%;
+  height: 240px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.image-grid {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.image01 { background-image: url('images/photo1706270262.jpeg'); }
+.image02 { background-image: url('images/photo1706270262\ \(1\).jpeg'); }
+.image03 { background-image: url('images/photo1706270262\ \(2\).jpeg'); }
+.image04 { background-image: url('images/photo1706270262\ \(4\).jpeg'); }
+.image05 { background-image: url('images/photo1706270262\ \(5\).jpeg'); }
+.image06 { background-image: url('images/photo1706270265.jpeg'); }
+.image07 { background-image: url('images/photo1706270265\ \(1\).jpeg'); }
+.image08 { background-image: url('images/photo1706270262\ \(5\).jpeg'); }
+.image09 { background-image: url('images/photo1706270262\ \(2\).jpeg'); }
+.image10 { background-image: url('images/photo1706270262\ \(3\).jpeg'); }
+.image11 { background-image: url('images/photo1706270262\ \(5\).jpeg'); }
+.image12 { background-image: url('images/photo1706270262\ \(1\).jpeg'); }
+
+@media screen and (max-width: 400px) {
+  .image-grid {
+    flex-direction: column;
+    flex-wrap: no-wrap;
+  }
+  .image-grid div { width: 100%; }
+}
