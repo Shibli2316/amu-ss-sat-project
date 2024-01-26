@@ -9,7 +9,7 @@
 	src: url(./fonts/Poppins-Medium.ttf);
 }
 body{
-	background-color: rgb(238, 238, 238);
+	background-color: white
 }
 .main{
 	width: 100%;
