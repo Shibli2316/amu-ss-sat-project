@@ -219,8 +219,10 @@ body {
  #contact{
   padding: 30px;
   display: flex;
+  flex-wrap: wrap;
+
   justify-content: space-around;
-  gap: 10px;
+  gap: 12px;
   margin-bottom: 20px;
  }
 
