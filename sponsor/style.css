@@ -3,37 +3,9 @@ body {
     font-family: 'Arial', sans-serif;
 }
 
-header {
-    background-color: #1b81e6;
-    color: white;
-    padding: 10px 0;
-}
 
-.navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 1200px;
-    margin: 0 auto;
-}
 
-.logo {
-    font-size: 1.5em;
-}
 
-.nav-links {
-    list-style: none;
-    display: flex;
-}
-
-.nav-links li {
-    margin-right: 20px;
-}
-
-.nav-links a {
-    text-decoration: none;
-    color: white;
-}
 
 .funding {
     padding: 20px;
@@ -70,15 +42,7 @@ p{
     font-family: "Roboto Slab",serif;
 }
 
-footer {
-    background-color: #0386f9;
-    color: white;
-    text-align: center;
-    /* padding: 5px 0; */
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-}
+
 
 
 
