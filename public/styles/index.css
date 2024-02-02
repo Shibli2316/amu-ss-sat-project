@@ -2,6 +2,8 @@
   scroll-behavior: smooth;
 }
 
+
+
 body {
     margin: 0;
     font-family: Arial, sans-serif;
@@ -93,14 +95,17 @@ body {
       text-align: justify;
      } */
      .feature {
-      flex-direction: column;
-      align-items: center;
+      
+      
       text-align: justify;
   }
   .feature-name {
-    text-align: center;
+    text-align: left;
     padding: 0;
     margin-bottom: 10px;
+}
+.feature-details{
+  text-align: left;
 }
 .container {
   flex-direction: column;
@@ -109,6 +114,7 @@ body {
 .reachus{
   width: 100%;
 }
+
 
   }
 
@@ -178,33 +184,6 @@ body {
   
 }
 
-@media only screen and (max-width: 768px) {
-  .container {
-      padding: 0 10px;
-  }
-
-  .right, .left {
-      width: 100%;
-      text-align: justify;
-  }
-
-  iframe {
-      width: 100%;
-      height: 300px;
-  }
-  .footer{
-    padding: 0px;
-  }
-}
-
-.aboutus p {
-  text-align: justify;
-  margin-bottom: 20px;
-}
-
-.aboutus li {
-  margin-bottom: 10px;
-}
 
 
 @keyframes slideFromLeft {
@@ -300,15 +279,15 @@ body {
 
       .carousel { 
         position: relative; 
-        width: 450px; 
-        height: 400px; 
+        width: 550px; 
+        height: 20rem; 
         overflow: hidden; 
         background-color: #cdcdcd; 
     } 
       
     .carousel-item .slide-image { 
-        width: 450px; 
-        height: 400px; 
+        width: 550px; 
+        height: 20rem; 
         background-size: cover; 
         background-repeat: no-repeat; 
     } 
@@ -368,16 +347,24 @@ body {
       .responsive-image{
         width: 100%;
       }
-      .intropara{
-       
-        font-size: 2rem;
-        line-height: 1.3;
-        text-align: justify;
-        width: 100%;
-      }
+    
       #last{
         padding: 0;
       }
+      .carousel { 
+        position: relative; 
+        width: 660px; 
+        height: 15rem; 
+        overflow: hidden; 
+        background-color: #cdcdcd; 
+    } 
+      
+    .carousel-item .slide-image { 
+        width: 660px; 
+        height: 15rem; 
+        background-size: contain; 
+        background-repeat: no-repeat; 
+    } 
 
     }
 
@@ -496,3 +483,43 @@ body {
        font-weight: 300; 
        font-size: 1rem
     }
+
+    @media only screen and (max-width: 768px) {
+      .container {
+          padding: 0 10px;
+      }
+    
+      .right, .left {
+          width: 100%;
+          text-align: justify;
+      }
+    
+      iframe {
+          width: 100%;
+          height: 300px;
+      }
+      
+      .intropara{
+        width: 100%;
+        font-size: 1.2rem;
+        text-align: justify;
+        line-height: 1.5;
+        margin: 3px;
+      }
+      .right-image{
+        width: 300px;
+        height: 270px;
+      }
+      .aboutus p {
+        text-align: justify;
+        margin-bottom: 20px;
+        font-size: 1.2rem;
+        line-height: 1.3;
+      }
+      
+      .aboutus li {
+        margin-bottom: 10px;
+      }
+    }
+    
+   
